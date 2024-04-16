@@ -1,0 +1,13 @@
+@use '../../styles/variables';
+
+body {
+	background-color: variables.$deep-grey-color;
+	margin: 0 auto;
+}
+
+.App {
+	background-color: variables.$light-grey-color;
+	min-height: 100vh;
+	height: 100%;
+	padding: 1rem;
+}
